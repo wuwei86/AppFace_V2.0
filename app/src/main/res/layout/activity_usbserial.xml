@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/usb_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_topbar_height"/>
+
+    <TextView
+        android:id="@+id/tv_scan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/usb_title"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="扫描"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_size"/>
+
+    <TextView
+        android:id="@+id/tv_open"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tv_scan"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="打开"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_size"/>
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tv_open"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="关闭"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_size"/>
+
+    <TextView
+        android:id="@+id/tv_send"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tv_close"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="发送0x0506"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_size"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tv_send"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:gravity="center"
+        android:text="串口状态"
+        android:textColor="@color/app_red"
+        android:textSize="@dimen/text_title_size"/>
+
+    <TextView
+        android:id="@+id/tv_rece"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tv_status"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:text="收到到数据:"
+        android:textColor="@color/app_red"
+        android:textSize="@dimen/text_title_size"/>
+
+
+</RelativeLayout>

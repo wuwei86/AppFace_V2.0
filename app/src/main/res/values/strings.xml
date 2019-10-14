@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">AppFace</string>
+    <string name="faceregister">人脸注册</string>
+    <string name="facedetect">人脸识别</string>
+    <string name="nfcregister">NFC注册</string>
+    <string name="facelib">人脸库</string>
+    <string name="nfc_msg">请检查NFC是否开启或者设备是否支持NFC功能</string>
+    <string name="card_name">姓名</string>
+    <string name="card_number">卡号</string>
+    <string name="create_time">创建时间</string>
+    <string name="confirm">确定</string>
+    <string name="active_success">active success</string>
+    <string name="already_activated">already activated</string>
+    <string name="active_failed">active failed,code is %d</string>
+    <string name="permission_denied">permission denied!</string>
+    <string name="card_number_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="register">注册</string>
+    <string name="init_failed">init failed,code is %d</string>
+    <string name="please_input_name">请输入姓名</string>
+    <string name="please_input_phone">请输入电话号码</string>
+    <string name="please_input_registername">请输入注册名字</string>
+    <string name="crashtest">测试crash</string>
+    <string name="nav_header_text">点击进入登陆界面</string>
+    <string name="nav_recycler_view">Recycler View</string>
+    <string name="nav_scrolling">Scrolling</string>
+    <string name="nav_fullscreen">全屏</string>
+    <string name="nav_bottom_navigation">底部导航栏</string>
+    <string name="nav_settings">JPTabBar</string>
+    <string name="nav_sideslip">侧滑</string>
+    <string name="nav_about">Lottie动画</string>
+    <string name="nav_donate">关于</string>
+    <string name="nav_my_apps">我的应用</string>
+    <string name="login_user_name_hint">手机号码或邮件</string>
+    <string name="login_user_name_password">密码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="forgot_password">忘记密码?</string>
+    <string name="error_no_name">Input your phone or email</string>
+    <string name="error_invalid_name">Invalid user name</string>
+    <string name="error_no_password">Input your password</string>
+    <string name="error_invalid_password">At least 4 characters</string>
+
+    <string name="large_text">
+        "Material is the metaphor."
+        "\n\nA material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic."
+        "\nSurfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics."
+        "\nThe fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts."
+        "\n\nBold, graphic, intentional."
+        "\n\nThe foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience."
+        "\nAn emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user."
+        "\n\nMotion provides meaning."
+        "\n\nMotion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design."
+        "\nAll action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize."
+        "\nMotion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent."
+        "\n\n3D world."
+        "\n\nThe material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness."
+        "\nOn the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis."
+        "\n\nLight and shadow."
+        "\n\nWithin the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles."
+        "\nShadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp."
+        "\n\nResting elevation."
+        "\n\nAll material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible."
+        "\n\nComponent elevations."
+        "\n\nThe resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app)."
+        "\nComponents may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop)."
+        "\n\nResponsive elevation and dynamic elevation offsets."
+        "\n\nSome component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets."
+        "\nDynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation."
+        "\nOnce the input event is completed or cancelled, the component will return to its resting "
+        "elevation."
+        "\n\nAvoiding elevation interference."
+        "\n\nComponents with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout."
+        "\nOn a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears."
+        "\nOn the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+</resources>

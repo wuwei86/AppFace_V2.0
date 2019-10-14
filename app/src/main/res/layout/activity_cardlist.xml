@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title_image_text_include"/>
+
+    <ViewStub
+        android:id="@+id/view_stub_err"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/title"
+        android:inflatedId="@+id/err_layout"
+        android:layout="@layout/err_view"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/ly_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/view_stub_err"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/card_name"
+            android:textColor="@color/text_content_color"
+            android:textSize="@dimen/text_content_size" />
+
+        <View style="@style/vertical_line_d5" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/card_number"
+            android:textColor="@color/text_content_color"
+            android:textSize="@dimen/text_content_size" />
+
+        <View style="@style/vertical_line_d5" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/create_time"
+            android:textColor="@color/text_content_color"
+            android:textSize="@dimen/text_content_size" />
+    </LinearLayout>
+
+    <View
+        style="@style/horizontal_line_d5"
+        android:layout_below="@id/ly_text" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_text"
+        android:layout_centerInParent="true"
+        android:scrollbars="none"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:src="@mipmap/add"
+        />
+
+</RelativeLayout>

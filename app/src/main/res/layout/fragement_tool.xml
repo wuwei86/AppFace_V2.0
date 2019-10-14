@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/tool_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_topbar_height"/>
+
+
+    <TextView
+        android:id="@+id/tv_map"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tool_title"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="地图"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_size"/>
+
+    <TextView
+        android:id="@+id/tv_jpush"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tv_map"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="极光推送接收自定义消息"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_size"/>
+
+    <TextView
+        android:id="@+id/tv_usbhost"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_below="@id/tv_jpush"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="手机usb转串口"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_size"/>
+
+</RelativeLayout>

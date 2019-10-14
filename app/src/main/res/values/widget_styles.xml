@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <style name="horizontal_line_d5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_d5</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="vertical_line_d5">
+        <item name="android:layout_width">@dimen/line_d5</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+</resources>
