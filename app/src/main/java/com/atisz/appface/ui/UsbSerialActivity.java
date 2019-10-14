@@ -62,7 +62,7 @@ public class UsbSerialActivity extends MyBaseActivity implements View.OnClickLis
     private Subscription mObservable;
     private UsbManager mUsbManager;
     private UsbDevice mUsbSerialDevice;
-    private ArrayList<UsbSerialPort> mUsbSerialPorts =  new ArrayList<>();
+    private ArrayList<UsbSerialPort> mUsbSerialPorts = new ArrayList<>();
     private UsbSerialPort mUsbSerialPort;
     private boolean mUsbSerialState = false;
     private SerialInputOutputManager mSerialIoManager;
