@@ -28,7 +28,7 @@ public class BaseUIListener implements IUiListener {
 	private Context mContext;
 	private String mScope;
 	private boolean mIsCaneled;
-	private boolean ismIsCaneled;
+	private boolean ismIsCaneled = true;
 
 	
 	public BaseUIListener(Context mContext) {
